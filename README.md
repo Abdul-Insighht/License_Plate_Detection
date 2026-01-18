@@ -1,6 +1,22 @@
 # License_Plate_Detection
 
-reate a folder in system
+<p align="center">
+  <img src="output_sample.png" alt="License Plate Detection" width="800"/>
+</p>
+
+🚗 **Automating Vehicle License Plate Detection with YOLO and EasyOCR!**
+
+### 🎥 Output Demo
+
+The processed output videos with license plate detections:
+- `Projects/video/licence_plate_detect.mp4` (9.9 MB)
+- `Projects/video/LicensePlateDetectionTest_1080p.mp4` (18 MB)
+
+---
+
+## 🚀 Quick Start
+
+create a folder in system
 
 licences_plate_detect
 
