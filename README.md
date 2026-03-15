@@ -1,91 +1,87 @@
+﻿<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=License_Plate_Detection&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
+
 # License_Plate_Detection
 
-<p align="center">
-  <img src="output_sample.png" alt="License Plate Detection" width="800"/>
-</p>
-
-🚗 **Automating Vehicle License Plate Detection with YOLO and EasyOCR!**
-
-### 🎥 Output Demo
-
-The processed output videos with license plate detections:
-- `Projects/video/licence_plate_detect.mp4` (9.9 MB)
-- `Projects/video/LicensePlateDetectionTest_1080p.mp4` (18 MB)
+Automatic license plate detection and recognition system using YOLO object detection combined with OCR pipeline.
 
 ---
 
-## 🚀 Quick Start
+## Project Status: âœ… COMPLETE & READY FOR DEPLOYMENT
 
-create a folder in system
-
-licences_plate_detect
-
-## create environment
-
-    conda create -n lc_plate python=3.12
-    conda activate lc_plate
-    conda deactivate 
-    pip install -r requirements.txt
-
-## create folder in code-editor
-
-    bash setup.sh
-
-    python sql.db.py
-
-    uvicorn app:app --reload
-
-## notics
-
-My model was trained with a small number of epochs. If possible, please increase the number of epochs to achieve better detection.
-
-## Explaination
-
-🚗 Automating Vehicle License Plate Detection with Python! 🟢
-
-I’m excited to share my latest project: a Full License Plate Detector built using YOLO and EasyOCR — fully Colab-ready! 🎉
-
-💡 What it does:
-
-Detects vehicles in videos frame by frame.
-
-Reads license plates with EasyOCR (lightweight and efficient).
-
-Saves all detected plates into JSON files and a SQLite database automatically.
-
-Annotates videos with detected plates and confidence scores.
-
-Customizable: detection confidence, save interval, and display options.
-
-Why I built it:
-This tool can be a great starting point for smart parking systems, traffic monitoring, or vehicle tracking solutions. It demonstrates how AI can automate tasks that used to require hours of manual work.
-
-🔗 Tech stack: Python | YOLO | EasyOCR | OpenCV | SQLite
-
-Excited to see how this can be improved further and applied in real-world scenarios! 🚀
-
+![GitHub stars](https://img.shields.io/github/stars/Abdul-Insighht/=social)
+![GitHub forks](https://img.shields.io/github/forks/Abdul-Insighht/=social)
 
 ---
 
-## 📬 Contact
+## ðŸ› ï¸ Tech Stack
 
-**Hafiz Abdul Rehman**
-
-- 📧 Email: hafizrehman3321@gmail.com
-- 💼 LinkedIn: [Hafiz Abdul Rehman](https://linkedin.com/in/hafiz-abdul-rehman-9990ab329)
-- 🐙 GitHub: [Abdul-Insighht](https://github.com/Abdul-Insighht)
+```
+Python, YOLO, OpenCV, Tesseract OCR
+```
 
 ---
 
-## 🌟 Show Your Support
+## ðŸš€ Getting Started
 
-If you find this project helpful, please consider:
+1. **Clone the repository**
+```bash
+git clone https://github.com/Abdul-Insighht/License_Plate_Detection.git
+cd License_Plate_Detection
+```
 
-- ⭐ **Starring** this repository
-- 🔄 **Sharing** with others
-- 🐛 **Reporting** issues
-- 💡 **Suggesting** improvements
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the project**
+```bash
+python main.py
+```
 
 ---
 
-<p align="center">Made with ❤️ by <b>Hafiz Abdul Rehman</b></p>
+## â­ Quick Links
+
+â­ [Star this repo](https://github.com/Abdul-Insighht/License_Plate_Detection) â€¢ ðŸ› [Report Bug](https://github.com/Abdul-Insighht/License_Plate_Detection/issues) â€¢ ðŸ’¡ [Request Feature](https://github.com/Abdul-Insighht/License_Plate_Detection/issues)
+
+---
+
+Made with â¤ï¸ using Python & AI Technologies â€” Demonstration by **Abdul-Insighht** - Data Science Specialist | AI Agent & Agentic AI Developer
+
+---
+
+## ðŸ‘¤ Author
+
+<table>
+<tr>
+<td>
+
+**Hafiz Abdul Rehman**  
+[Abdul-Insighht](https://github.com/Abdul-Insighht) Â· he/him  
+**Data Science Specialist | AI Agent & Agentic AI Developer**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Abdul--Insighht-181717?style=flat-square&logo=github)](https://github.com/Abdul-Insighht)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hafiz-abdul-rehman-9990ab329/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## ðŸ“„ License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
+
+<div align="center">
+  <sub>â­ï¸ From <a href="https://github.com/Abdul-Insighht">Abdul-Insighht</a> â€” Passionate about AI, ML, and solving real-world problems</sub>
+</div>
